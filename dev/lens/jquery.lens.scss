@@ -1,0 +1,21 @@
+.lens_wrap {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	img {
+		display: block;
+	}
+	.lens_image_wrap {
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		.lens_image {
+			width: auto !important;
+			height: auto !important;
+			max-width: none !important;
+			max-height: none !important;
+		}
+	}
+}
