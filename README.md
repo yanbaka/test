@@ -6,7 +6,7 @@ Image partial enlargement
 
 ## Demo
 
-[DemoPage](https://yanbaka.github.io/lens/)
+[DemoPage](https://yanbaka.github.io/lens/index.html)
 
 ## Usage
 
