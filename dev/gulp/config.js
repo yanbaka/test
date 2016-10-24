@@ -10,7 +10,10 @@ module.exports = {
 
     watch: {
         dir: [
-            baseConfig.dev+'/**/*'
+            baseConfig.dev+'/**/*',
+            '!'+baseConfig.dev+'gulp/**/*',
+            '!'+baseConfig.dev+'ejs/**/*',
+            '!'+baseConfig.dev+'sass/**/*'
         ],
         ejs: 'dev/ejs/**/*.ejs'
     },
